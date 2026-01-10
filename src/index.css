@@ -12,7 +12,7 @@ body {
 }
 
 .section {
-  background: black;
+  background: #fefbfb;
   min-height: 100vh;
   padding: 0 1em;
 }
@@ -146,7 +146,7 @@ label {
 .product-list {
   text-align: center;
   padding-bottom: 2rem;
-  color: #fff;
+  color: #141414;
 }
 
 .product-grid {
@@ -161,6 +161,8 @@ label {
   background: #fff;
   width: 250px;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
   padding: 1rem;
 }
 

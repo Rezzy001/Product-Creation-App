@@ -16,9 +16,7 @@ function App() {
         setIsModalOpen={setIsModalOpen}
         setHasCreatedProduct={setHasCreatedProduct}
       />
-      {hasCreatedProduct && !isModalOpen && (
-        <ProductList productCard={productCard} />
-      )}
+      <ProductList productCard={productCard} hasCreatedProduct={hasCreatedProduct} />
     </div>
   );
 }
